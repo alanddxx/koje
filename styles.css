@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #4b2e83; /* Warna coklat */
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: #c7d36f; /* Warna hijau */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2em auto;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#postForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#postContent {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#postMedia {
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #4b2e83;
+    color: #c7d36f;
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3d2572;
+}
+
+.post {
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.post .actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.post .actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #4b2e83;
+}
